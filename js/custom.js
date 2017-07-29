@@ -33,16 +33,16 @@ function calculateCenter() {
   center = map.getCenter();
 }
 
-function loadGoogleMap(){
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
-    document.body.appendChild(script);
-}
+//function loadGoogleMap(){
+//    var script = document.createElement('script');
+//    script.type = 'text/javascript';
+//    script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+//    document.body.appendChild(script);
+//}
 
-$(function(){
-  loadGoogleMap();
-});
+//$(function(){
+//  loadGoogleMap();
+//});
 
 
 /* Istope Portfolio
